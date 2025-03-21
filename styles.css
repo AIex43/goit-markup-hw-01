@@ -99,6 +99,17 @@ body {
   margin-right: 16px;
 }
 
+.list-icon{
+  width: 20px;
+height: 20px;
+}
+
+
+
+
+
+
+
 .Proposal-to-leave-an-application .button {
   display: inline-flex;
   padding: 16px 64px;
