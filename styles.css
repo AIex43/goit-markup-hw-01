@@ -94,19 +94,15 @@ body {
 }
 
 .Proposal-to-leave-an-application .list-item {
+
   margin-bottom: 18px;
   font-weight: 700;
   display: flex;
   align-items: center;
+
 }
 
-.Proposal-to-leave-an-application .list-item svg {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  fill: #4dc274;
-  margin-right: 16px;
-}
+
 
 .Proposal-to-leave-an-application .button {
   display: inline-flex;
@@ -157,6 +153,26 @@ body {
 
 
 
+.social-link {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  background-color: var(--bg-color, #4DC274);
+ border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.social-icon{
+  width:20px; height:20px; 
+  fill: #4DC274;
+}
+
+
+
 
 
 
@@ -180,11 +196,27 @@ body {
   width: 335px;
   height: 737px;
   overflow: hidden; 
+  font-family: "Manrope", sans-serif;
+
+  }
+
+
+
+  body {
+    font-family: "Manrope", sans-serif;
+  }
+
+
+  .Proposal-to-leave-an-application .list-item {
+
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  
   }
 
   .Proposal-to-leave-an-application .title {
     color: #FFF;
-    font-family: Manrope;
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -195,8 +227,6 @@ body {
   }
 
   .Proposal-to-leave-an-application .title2 {
-    color: #121417;
-    font-family: Manrope;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -207,8 +237,6 @@ body {
   }
 
   .Proposal-to-leave-an-application .list {
-    color: #121417;
-    font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -223,7 +251,7 @@ body {
   .Proposal-to-leave-an-application .button {
     display: inline-flex;
     width: 255px;
-    height: 55px;
+    height: 52px;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
@@ -265,13 +293,6 @@ margin: 0px 20px;
     white-space: nowrap;
     border: 0;
   }
-  .Proposal-to-leave-an-application .list-item svg {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    fill: #4dc274;
-    margin-right: 8px;
-  }
 
 
   .Proposal-to-leave-an-application .inner-container1 {
@@ -299,6 +320,23 @@ margin: 0px 20px;
 
 
 
+  .social-link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-color, #4DC274);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 16px;
+  }
+  
+  .social-icon{
+    width:12px; height:12px; 
+    fill: #4DC274;
+  }
+  
 
 
 }
@@ -442,21 +480,8 @@ margin: 0px 20px;
 }
 
 
-.social-item {
-  width: 40px;
-  height: 40px;
-}
 
-.social-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: var(--bg-color, #4d5ae5);
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 
 
