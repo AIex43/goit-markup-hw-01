@@ -333,7 +333,7 @@ margin: 0px 20px;
   }
   
   .social-icon{
-    width:12px; height:12px; 
+    scale: 0.7;
     fill: #4DC274;
   }
   
@@ -478,6 +478,9 @@ margin: 0px 20px;
     }
     
 }
+
+
+
 
 
 
