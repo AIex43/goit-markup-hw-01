@@ -1,0 +1,443 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.Proposal-to-leave-an-application {
+  display: inline-flex;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
+  position: relative;
+  width: 1152px;
+  height: 950px;
+
+}
+.container{
+  width: 1024;
+  height: 745;
+  
+}
+
+.Proposal-to-leave-an-application .title {
+  color: #fff;
+  width: 776px;
+  height: 140px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 64px 0px 133.13px 64px;
+}
+
+.Proposal-to-leave-an-application .title-word {
+  color: #bee8cc;
+}
+
+.Proposal-to-leave-an-application .inner-container1 {
+  flex-shrink: 0;
+  border-radius: 30px;
+  margin:45px 70px;
+  background: #ace2bf;
+  position: absolute;
+  width: 1011px;
+  height: 402px;
+  transform: rotate(11deg);
+}
+
+.Proposal-to-leave-an-application .inner-container2 {
+  flex-shrink: 0;
+  border-radius: 30px;
+  margin:0 45px;
+  background: #d4fde1;
+  position: absolute;
+  width: 1050px;
+  height: 463px;
+  transform: rotate(-8deg);
+}
+
+.Proposal-to-leave-an-application .inner-container {
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  position: relative;
+  width: 1024px;
+  height: 471px;
+  margin: 0px 64px;
+}
+
+.Proposal-to-leave-an-application .title2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.8px;
+  padding: 64px 64px 42px 64px;
+  margin: 0;
+}
+
+.Proposal-to-leave-an-application .list {
+  list-style: none;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  padding-left: 0;
+  width: 654px;
+  height: 156px;
+  margin: 0px 64px 0px 64px;
+}
+
+.Proposal-to-leave-an-application .list-item {
+  margin-bottom: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.Proposal-to-leave-an-application .list-item svg {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  fill: #4dc274;
+  margin-right: 16px;
+}
+
+.Proposal-to-leave-an-application .button {
+  display: inline-flex;
+  padding: 16px 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #4dc274;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 39px 64px 0px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Proposal-to-leave-an-application .button:hover,
+.Proposal-to-leave-an-application .button:focus {
+  background-color: #38ae5f;
+}
+
+.Proposal-to-leave-an-application .img {
+  width: 214px;
+  height: 263px;
+  position: absolute;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Мобільна адаптація (макс. 375px) */
+@media (max-width: 376px) {
+  .Proposal-to-leave-an-application {
+  width: 335px;
+  height: 737px;
+  overflow: hidden; 
+  }
+
+  .Proposal-to-leave-an-application .title {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 105.263% */
+    margin: 40px 0px 65px 20px;
+    width: 295px;
+    height: 160px;
+  }
+
+  .Proposal-to-leave-an-application .title2 {
+    color: #121417;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    padding: 40px 20px 20px 20px;
+    
+  }
+
+  .Proposal-to-leave-an-application .list {
+    color: #121417;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+    margin: 0px 20px 0px 20px;
+    width: 255px;
+    height: 212px;
+  }
+
+
+  .Proposal-to-leave-an-application .button {
+    display: inline-flex;
+    width: 255px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #4dc274;
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    padding:0;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 20px 20px 40px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  .Proposal-to-leave-an-application .inner-container {
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #fff;
+    position: relative;
+    width: 295px;
+height: 408px;
+margin: 0px 20px;
+
+  }
+
+
+  .Proposal-to-leave-an-application .img {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .Proposal-to-leave-an-application .list-item svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #4dc274;
+    margin-right: 8px;
+  }
+
+
+  .Proposal-to-leave-an-application .inner-container1 {
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin:0px 20px;
+    background: #ace2bf;
+    position: absolute;
+    width: 295px;
+    height: 408px;
+    transform: rotate(9deg);
+    
+  }
+  
+  .Proposal-to-leave-an-application .inner-container2 {
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin:0 20px;
+    background: #d4fde1;
+    position: absolute;
+    width: 295px;
+    height: 408px;
+    transform: rotate(-9deg);
+  }
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 377px) and (max-width: 768px) {
+  .Proposal-to-leave-an-application {
+    width: 704px;
+    height: 950px;
+    
+    }
+
+    .Proposal-to-leave-an-application .title {
+      
+      line-height: 70px;
+      font-size: 60px;
+      margin: 64px 0px 83px 18px;
+      width: 640px;
+      height: 210px;
+    }
+    .Proposal-to-leave-an-application .inner-container {
+      width: 668px;
+      height: 500px;
+  margin: 0px 18px;
+  overflow: hidden;
+  
+    }
+
+    .Proposal-to-leave-an-application .title2 {
+      font-size: 40px;
+      line-height: 48%; /* 120% */
+      letter-spacing: -0.4px;
+      padding: 64px 0px 32px 32px;
+      height: 48px;
+      line-height: 48px;
+      align-items: center;
+    }
+
+    .Proposal-to-leave-an-application .list {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 142.857% */
+      letter-spacing: -0.28px;
+      margin: 0px 31px 0px 31px;
+      width: 451px;
+      height: 200px;
+    }
+
+
+    .Proposal-to-leave-an-application .button {
+      display: inline-flex;
+      width: 306px;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: #4dc274;
+      color: #fff;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      padding:0;
+      font-weight: 700;
+      line-height: 28px;
+      margin: 31px 20px 63px 31px;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .Proposal-to-leave-an-application .list-item {
+      margin-bottom: 16px;
+      
+    }
+
+
+    .Proposal-to-leave-an-application .img {
+      width: 214px;
+      height: 263px;
+      position: absolute;
+      right: -50px;
+      top: 60%;
+      transform: translateY(-50%);
+    }
+
+    .Proposal-to-leave-an-application .list-item svg {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+      fill: #4dc274;
+      margin-right: 8px;
+    }
+
+
+
+
+
+
+    .Proposal-to-leave-an-application .inner-container1 {
+      flex-shrink: 0;
+      border-radius: 30px;
+      margin:0px 20px;
+      background: #ace2bf;
+      position: absolute;
+      width: 668px;
+      height: 500px;
+      transform: rotate(9deg);
+      overflow: hidden; 
+      top: 50px;
+    }
+    
+    .Proposal-to-leave-an-application .inner-container2 {
+      flex-shrink: 0;
+      border-radius: 30px;
+      margin:0 20px;
+      background: #d4fde1;
+      position: absolute;
+      width: 668px;
+      height: 500px;
+      transform: rotate(-9deg);
+ 
+      
+    }
+
+
+
+
+
+    .inner-container1lock{
+      width: 704px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+    top: 310px;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
