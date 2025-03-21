@@ -17,6 +17,15 @@ body {
   height: 745;
   
 }
+.icon-container{
+  width: 28px;
+  height: 28px;
+  background-color: var(--bg-color, #4d5ae5);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .Proposal-to-leave-an-application .title {
   color: #fff;
@@ -92,23 +101,12 @@ body {
 }
 
 .Proposal-to-leave-an-application .list-item svg {
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   flex-shrink: 0;
   fill: #4dc274;
   margin-right: 16px;
 }
-
-.list-icon{
-  width: 20px;
-height: 20px;
-}
-
-
-
-
-
-
 
 .Proposal-to-leave-an-application .button {
   display: inline-flex;
@@ -442,6 +440,8 @@ margin: 0px 20px;
     }
     
 }
+
+
 
 
 
